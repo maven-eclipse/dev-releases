@@ -4,7 +4,7 @@
 
 SWT is not available in Maven Central making it difficult to use in Maven projects. Existing maven repos are either not maintained and abandoned, don't have all platforms, don't contain sources, don't contain debug jar, or don't automate downloading and extracting the JARs. 
 
-This repo contains SWT 4.2 to 4.5RC2a on all supported platforms
+This repo contains SWT 4.5+ on all supported platforms
 
  - Stable releases
   - 4.5RC4 - 3 Jun 2015
@@ -37,7 +37,7 @@ This repo contains SWT 4.2 to 4.5RC2a on all supported platforms
  - Each ZIP is extracted as follows
   - swt.jar - Main JAR
   - swt-debug.jar - Add `<classifier>debug</classifier>` 
-  - src.zip - Sources classifier, most IDE's can handle downloading this
+  - src.zip - `sources` classifier, most IDE's can handle downloading this
  
 Want JFace support? Please see [Issue #1](https://github.com/maven-eclipse/maven-eclipse.github.io/issues/1)
   
@@ -88,11 +88,6 @@ Then add dependencies for each platform you wish to support. The most common are
 	<dependency>
 		<groupId>org.eclipse.swt</groupId>
 		<artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
-		<version>${swt.version}</version>
-	</dependency>
-	<dependency>
-		<groupId>org.eclipse.swt</groupId>
-		<artifactId>org.eclipse.swt.cocoa.macosx</artifactId>
 		<version>${swt.version}</version>
 	</dependency>
 	<dependency>
