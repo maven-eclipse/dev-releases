@@ -5,6 +5,7 @@
 SWT is not available in Maven Central making it difficult to use in Maven projects. Existing maven repos are either not maintained and abandoned, don't have all platforms, don't contain sources, don't contain debug jar, or don't automate downloading and extracting the JARs. 
 
 This repo contains SWT 4.2 to 4.5RC2a on all supported platforms
+
  - Stable releases
   - 4.5RC4 - 3 Jun 2015
   - 4.5RC3 - 28 May 2015
@@ -59,7 +60,7 @@ Add this to your pom.xml:
 ```
 <repositories>
 	<repository>
-		<id>swt-maven-repo</id>
+		<id>swt-maven-repo-dev</id>
 		<url>http://swt-maven.github.io/dev-releases/maven</url>
 	</repository>
 </repositories>
