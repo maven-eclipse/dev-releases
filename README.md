@@ -1,6 +1,6 @@
 # Eclipse SWT for Maven Users - Dev Version
 
-**This repo is for the dev milestone (M) and release candidate (RC) versions. [See the main repository for stable releases](http://github.com/swt-maven/swt-maven.github.io)**
+**This repo is for the dev milestone (M) and release candidate (RC) versions. [See the main repository for stable releases](http://github.com/maven-eclipse/swt-maven.github.io)**
 
 SWT is not available in Maven Central making it difficult to use in Maven projects. Existing maven repos are either not maintained and abandoned, don't have all platforms, don't contain sources, don't contain debug jar, or don't automate downloading and extracting the JARs. 
 
@@ -21,7 +21,7 @@ This repo contains SWT 4.5+ on all supported platforms
   - 4.5M1 - 6 Aug 2014
  - Platforms
   - org.eclipse.swt.win32.win32.x86
-  - org.eclipse.swt.win32.win32.x86_64  
+  - org.eclipse.swt.win32.win32.x86_64
   - ~~org.eclipse.swt.cocoa.macosx~~ - Obsoleted after 4.5M1
   - org.eclipse.swt.cocoa.macosx.x86_64
   - org.eclipse.swt.gtk.linux.x86
