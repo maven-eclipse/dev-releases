@@ -7,6 +7,7 @@ SWT is not available in Maven Central making it difficult to use in Maven projec
 This repo contains SWT 4.5+ on all supported platforms
 
  - Stable releases
+  - 4.6M3 - 29 Oct 2015
   - 4.6M2 - 16 Sep 2015
   - 4.6M1 - 5 Aug 2015
   - 4.5.1RC3 - 4 Sep 2015
@@ -78,6 +79,8 @@ Then add dependencies for each platform you wish to support. The most common are
 		<groupId>org.eclipse.swt</groupId>
 		<artifactId>org.eclipse.swt.win32.win32.x86</artifactId>
 		<version>${swt.version}</version>
+    <!-- To use the debug jar, add this -->
+    <classifier>debug</classifier>
 	</dependency>
 	<dependency>
 		<groupId>org.eclipse.swt</groupId>
