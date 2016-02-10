@@ -3,7 +3,7 @@
   <groupId>org.eclipse.swt</groupId>
   <artifactId>org.eclipse.swt.gtk.linux.ppc</artifactId>
   <versioning>
-    <release>4.6M5</release>
+    <release>4.5.2RC3</release>
     <versions>
       <version>4.5M1</version>
       <version>4.5M2</version>
@@ -26,7 +26,8 @@
       <version>4.5.2RC1</version>
       <version>4.5.2RC2</version>
       <version>4.6M5</version>
+      <version>4.5.2RC3</version>
     </versions>
-    <lastUpdated>20160202214120</lastUpdated>
+    <lastUpdated>20160210144203</lastUpdated>
   </versioning>
 </metadata>
