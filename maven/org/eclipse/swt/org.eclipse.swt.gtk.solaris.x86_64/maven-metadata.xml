@@ -3,14 +3,15 @@
   <groupId>org.eclipse.swt</groupId>
   <artifactId>org.eclipse.swt.gtk.solaris.x86_64</artifactId>
   <versioning>
-    <release>4.6RC4</release>
+    <release>4.6RC4a</release>
     <versions>
       <version>4.6M7</version>
       <version>4.6RC1</version>
       <version>4.6RC2</version>
       <version>4.6RC3</version>
       <version>4.6RC4</version>
+      <version>4.6RC4a</version>
     </versions>
-    <lastUpdated>20160606122508</lastUpdated>
+    <lastUpdated>20160607113300</lastUpdated>
   </versioning>
 </metadata>
