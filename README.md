@@ -8,6 +8,7 @@ This repo contains SWT 4.5+ on all supported platforms
 
  - Stable releases
   - 4.7M1 - 3 Aug 2016
+  - 4.6.1RC2 - 24 Aug 2016
   - 4.6.1RC1 - 17 Aug 2016
   - 4.6RC4a - 6 Jun 2016
   - 4.6RC4 - 3 Jun 2016
