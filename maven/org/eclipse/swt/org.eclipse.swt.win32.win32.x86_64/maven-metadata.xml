@@ -3,7 +3,7 @@
   <groupId>org.eclipse.swt</groupId>
   <artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
   <versioning>
-    <release>4.7M2</release>
+    <release>4.7M3</release>
     <versions>
       <version>4.5M1</version>
       <version>4.5M2</version>
@@ -41,7 +41,8 @@
       <version>4.6.1RC3</version>
       <version>4.6.1RC4</version>
       <version>4.7M2</version>
+      <version>4.7M3</version>
     </versions>
-    <lastUpdated>20160919121914</lastUpdated>
+    <lastUpdated>20161101164808</lastUpdated>
   </versioning>
 </metadata>

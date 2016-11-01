@@ -7,6 +7,7 @@ SWT is not available in Maven Central making it difficult to use in Maven projec
 This repo contains SWT 4.5+ on all supported platforms
 
  - Stable releases
+  - 4.7M3 - 27 Oct 2016
   - 4.7M2 - 15 Sep 2016
   - 4.7M1 - 3 Aug 2016
   - 4.6.1RC4 - 7 Sep 2016
